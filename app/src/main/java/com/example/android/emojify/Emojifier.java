@@ -118,6 +118,8 @@ class Emojifier {
             else
                 emoji = Emoji.FROWNING_BOTH_OPEN_EYES;
         }
+
+        Log.d(LOG_TAG, "whichEmoji: " + emoji.name());
     }
 
 
